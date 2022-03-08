@@ -1,0 +1,52 @@
+/* @import "~antd/dist/antd.css"; */
+
+/* 
+@font-face {
+  font-family: "Pokemon";
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon")
+      format("svg");
+}
+*/
+
+/* .pokeball {
+  width: 5vw;
+  transition: 0.2s;
+}
+
+.pokeball:hover {
+  width: 6vw;
+}
+
+.pokemonImg {
+  width: 50%;
+}
+
+.pokemonImg:hover {
+  cursor: pointer;
+} */
+
+/* .Layout_pokeball__3WRhm:hover {
+  cursor: pointer;
+} */
+
+/* .back-button {
+  background-color: #ad4e00;
+  border: none;
+  width: 9vw;
+  height: 5vh;
+  border-radius: 9px;
+  transition: 0.1s;
+}
+
+.ant-page-header-heading-title {
+  text-transform: uppercase;
+} */

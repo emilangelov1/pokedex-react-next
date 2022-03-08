@@ -1,0 +1,186 @@
+@import "~antd/dist/antd.css";
+
+@font-face {
+  font-family: "Pokemon";
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon")
+      format("svg");
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  background-image: linear-gradient(#ffc069, #ad4e00);
+  background-attachment: fixed;
+}
+
+div.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+
+/* img.pokemon {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  size: 100%;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p.cardtext {
+  justify-content: center;
+  display: flex;
+  font-family: Pokemon;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fa541c;
+  font-size: 25px;
+  font-weight: bolder;
+  font-size: 2vw;
+  transform: translate(0, -50%);
+}
+
+/* .col {
+  background-color: yellow;
+} */
+
+/* .morePokemon {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+  margin: 0 0 0 25%;
+  border: 5px solid #ffff00;
+} */
+
+.seemore {
+  background-color: #ad4e00;
+  border: none;
+  margin: 0;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 9vw;
+  height: 5vh;
+  border-radius: 9px;
+  transition: 0.1s;
+}
+
+.seemore:hover {
+  background-color: #7c3903;
+  box-shadow: rgba(0, 0, 0, 0.267) 5px 5px 5px;
+  cursor: pointer;
+}
+
+.seemore:focus {
+  background-color: #7c3903;
+  box-shadow: rgba(0, 0, 0, 0.267) 5px 5px 5px;
+}
+
+.buttontext {
+  color: rgb(255, 224, 183);
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  font-size: 1.3vw;
+  margin: 0;
+}
+
+div.singlePokemon {
+  display: flex;
+  justify-content: center;
+  /* border: 5px solid #ffff00; */
+  margin-top: 3%;
+}
+
+div.tag {
+  text-transform: uppercase;
+  border: none;
+  position: relative;
+  top: 98%;
+  left: 30%;
+  max-width: 9vw;
+  max-height: 5vh;
+  min-width: 1vw;
+  min-height: 1vh;
+}
+
+.card-wrapper {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.ant-page-header {
+  background-color: #ffae3d;
+  height: 20vh;
+  box-shadow: rgba(0, 0, 0, 0.644) 2px 5px 25px;
+}
+
+.ant-page-header-heading-title {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+.ant-page-header-heading-title:hover {
+  cursor: pointer;
+}
+
+.ant-card-bordered {
+  box-shadow: rgba(0, 0, 0, 0.137) 1px 1px 5px;
+}
+
+.ant-page-header-back {
+  background: #ad4e00;
+  border-radius: 5px;
+  width: 5vw;
+  height: 5vh;
+}
+
+.ant-page-header-back-button {
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #ffae3d;
+}
+
+.ant-pagination li {
+  border: none;
+  border-radius: 4px;
+}
